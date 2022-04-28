@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 28, 2022 at 02:54 PM
+-- Generation Time: Apr 28, 2022 at 03:04 PM
 -- Server version: 10.4.22-MariaDB
 -- PHP Version: 7.4.27
 
@@ -60,17 +60,6 @@ CREATE TABLE `tbl_cart` (
   `image` varchar(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
---
--- Dumping data for table `tbl_cart`
---
-
-INSERT INTO `tbl_cart` (`cartId`, `productId`, `sId`, `productName`, `price`, `quantity`, `image`) VALUES
-(53, 6, 's3vreidc74iojdvkro84uqkmkd', 'Laptop Acer Nitro 5 AN515-45-R0B6 GeForce® RTX3060 6GB R7-5800H 8G 512G 144Hz W10          ', '30990000', 5, '4041d9b4fd.jpg'),
-(55, 5, 's3vreidc74iojdvkro84uqkmkd', 'San pham 1', '20000000', 8, 'ae36a19ea6.jpg'),
-(61, 6, 'mc3p961jrqbd0lndmeblm2pg9t', 'Laptop Acer Nitro 5 AN515-45-R0B6 GeForce® RTX3060 6GB R7-5800H 8G 512G 144Hz W10          ', '30990000', 1, '4041d9b4fd.jpg'),
-(71, 6, '5gqll7m12mttkpg17ldu245fp8', 'Laptop Acer Nitro 5 AN515-45-R0B6 GeForce® RTX3060 6GB R7-5800H 8G 512G 144Hz W10          ', '30990000', 1, '4041d9b4fd.jpg'),
-(75, 6, 'ub6tktsb2idrb7htj2k15ge57s', 'Laptop Acer Nitro 5 AN515-45-R0B6 GeForce® RTX3060 6GB R7-5800H 8G 512G 144Hz W10          ', '30990000', 2, '4041d9b4fd.jpg');
-
 -- --------------------------------------------------------
 
 --
@@ -113,16 +102,8 @@ CREATE TABLE `tbl_order` (
 --
 
 INSERT INTO `tbl_order` (`id`, `productId`, `productName`, `userId`, `quantity`, `price`, `date_order`, `status`) VALUES
-(14, 6, 'Laptop Acer Nitro 5 AN515-45-R0B6 GeForce® RTX3060 6GB R7-5800H 8G 512G 144Hz W10          ', 2, '3', '92970000', '2022-04-27 07:37:43', 1),
-(15, 6, 'Laptop Acer Nitro 5 AN515-45-R0B6 GeForce® RTX3060 6GB R7-5800H 8G 512G 144Hz W10          ', 2, '2', '61980000', '2022-04-27 07:39:04', 1),
-(16, 6, 'Laptop Acer Nitro 5 AN515-45-R0B6 GeForce® RTX3060 6GB R7-5800H 8G 512G 144Hz W10          ', 2, '1', '30990000', '2022-04-27 07:40:36', 1),
 (17, 5, 'San pham 1', 1, '2', '40000000', '2022-04-27 09:19:00', 1),
-(18, 6, 'Laptop Acer Nitro 5 AN515-45-R0B6 GeForce® RTX3060 6GB R7-5800H 8G 512G 144Hz W10          ', 2, '22', '681780000', '2022-04-27 11:00:46', 1),
-(19, 5, 'San pham 1', 2, '1', '20000000', '2022-04-27 11:00:46', 1),
-(20, 6, 'Laptop Acer Nitro 5 AN515-45-R0B6 GeForce® RTX3060 6GB R7-5800H 8G 512G 144Hz W10          ', 2, '1', '30990000', '2022-04-27 11:00:53', 1),
-(21, 6, 'Laptop Acer Nitro 5 AN515-45-R0B6 GeForce® RTX3060 6GB R7-5800H 8G 512G 144Hz W10          ', 2, '1', '30990000', '2022-04-27 11:02:18', 1),
-(22, 6, 'Laptop Acer Nitro 5 AN515-45-R0B6 GeForce® RTX3060 6GB R7-5800H 8G 512G 144Hz W10          ', 2, '1', '30990000', '2022-04-27 11:02:26', 1),
-(23, 5, 'San pham 1', 2, '1', '20000000', '2022-04-27 11:03:06', 1);
+(21, 6, 'Laptop Acer Nitro 5 AN515-45-R0B6 GeForce® RTX3060 6GB R7-5800H 8G 512G 144Hz W10          ', 2, '1', '30990000', '2022-04-27 11:02:18', 1);
 
 -- --------------------------------------------------------
 
