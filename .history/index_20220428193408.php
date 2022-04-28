@@ -298,6 +298,7 @@
                   ?>
                 </div>
               </div>
+
               <!-- Pagination -->
               <ul class="pagination">
                 <li class="pagination-item">

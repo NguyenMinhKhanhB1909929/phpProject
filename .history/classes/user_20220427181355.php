@@ -73,7 +73,6 @@ $filepath = realpath(dirname(__FILE__));
         $email = mysqli_real_escape_string($this->db->link, $data['email']);
         $phone = mysqli_real_escape_string($this->db->link, $data['phone']);
         $sex = mysqli_real_escape_string($this->db->link, $data['sex']);
-        $diachi = mysqli_real_escape_string($this->db->link, $data['diachi']);
         $tinh = mysqli_real_escape_string($this->db->link, $data['tinh']);
         $quan = mysqli_real_escape_string($this->db->link, $data['quan']);
         $phuong = mysqli_real_escape_string($this->db->link, $data['phuong']);
@@ -81,8 +80,7 @@ $filepath = realpath(dirname(__FILE__));
           $alert = "khong duoc rong truong email";
           return $alert;
         } else {
-          $query = "UPDATE tbl_user SET fullName='$fullName', Email='$email',phone='$phone',sex='$sex',
-          diachi='$diachi',tinh='$tinh',quan='$quan',phuong='$phuong' WHERE userId='$id'";
+          $query = "UPDATE tbl_user SET fullName='$fullName', Email='$email',phone='$phone',sex='$sex',tinh='$tinh',quan='$quan',phuong='$phuong' WHERE userId='$id'";
           $result = $this->db->update($query);
           return $result;
         }

@@ -95,7 +95,8 @@
                                 <td><?php echo $result['phone']; ?></td>
 
                                 <td>
-                                  <?php echo $result['diachi'].", Phường ".$result['phuong'].", Quận ".$result['quan'].", Thành phố ".$result['tinh'];?>
+                                  46/14, KV5, phường Bình Thủy, Quận Bình Thủy,
+                                  Thành phố Cần Thơ
                                 </td>
 
                                 <td>

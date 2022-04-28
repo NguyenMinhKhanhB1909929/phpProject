@@ -1,5 +1,5 @@
 <?php
-  include "/xampp/htdocs/ct275/config/config.php";
+  include "./config/config.php";
 ?>
 
 <?php

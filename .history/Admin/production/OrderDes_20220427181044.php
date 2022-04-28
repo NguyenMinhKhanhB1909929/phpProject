@@ -143,7 +143,7 @@
 
                                 <td><?php echo $resultUser['phone'];?></td>
                                 <td>
-                                  <?php echo $resultUser['diachi'].", Phường ".$resultUser['phuong'].", Quận ".$resultUser['quan'].", Thành phố ".$resultUser['tinh'];?>
+                                  <?php echo "Phường ".$resultUser['phuong'].", Quận ".$resultUser['quan'].", Thành phố ".$resultUser['tinh'];?>
                                 </td>
                                 <td></td>
                               </tr>
