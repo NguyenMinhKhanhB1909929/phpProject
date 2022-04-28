@@ -1,0 +1,215 @@
+.user-information-wrap {
+  display: flex;
+  margin-top: 32px;
+}
+.user__info {
+  width: 50%;
+  box-shadow: 0 1px 3px 1px rgb(196, 190, 190);
+  margin-right: 8px;
+  background-color: white;
+  padding: 8px 12px;
+}
+.odered-and-payment {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.user-odered {
+  background-color: white;
+  box-shadow: 0 1px 3px 1px rgb(196, 190, 190);
+  padding: 8px 12px;
+  margin-bottom: 8px;
+}
+.user-payment {
+  background-color: white;
+  height: 191px;
+  box-shadow: 0 1px 3px 1px rgb(196, 190, 190);
+  padding: 8px 12px;
+}
+.payment-btn-wrap {
+  margin-top: 32px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 32px;
+}
+.payment-btn {
+  background-color: var(--primary-color);
+  height: 40px;
+  width: 190px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.8rem;
+  line-height: 1.8rem;
+  text-decoration: none;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+.user__infor-titile,
+.user-odered__titile {
+  font-size: 2.4rem;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.user__infor-name,
+.user__infor-email,
+.user__infor-phone,
+.user__infor-address {
+  display: flex;
+  align-items: center;
+  margin: 8px 0;
+}
+.user__infor-name-label,
+.user__infor-email-label,
+.user__infor-phone-label,
+.user__infor-address-label,
+.user__infor-address-select-label {
+  min-width: 18%;
+  font-size: 1.6rem;
+}
+.user__infor-name-input,
+.user__infor-email-input,
+.user__infor-phone-input,
+.user__infor-address-input,
+.user__infor-address-select-input {
+  flex: 1;
+  padding: 4px 8px;
+  font-size: 1.6rem;
+}
+
+.user__infor-address-wrap {
+  display: flex;
+  align-items: center;
+  margin: 8px 0;
+}
+.user__infor-address-wrap-label {
+  width: 18%;
+  font-size: 1.6rem;
+}
+.user__infor-address-select1,
+.user__infor-address-select2,
+.user__infor-address-select3 {
+  flex: 1;
+  padding: 4px 8px;
+  font-size: 1.6rem;
+}
+.user__infor-address-option {
+  padding: 4px 8px;
+  font-size: 1.6rem;
+}
+
+.user__infor-note {
+  font-size: 1.6rem;
+  margin: 8px 0;
+}
+.user__infor-note-input {
+  padding: 4px 8px;
+  line-height: 1.6rem;
+  width: 100%;
+}
+.user__infor-note-label {
+  margin-bottom: 8px;
+}
+.note-and-payment {
+}
+.user-note {
+}
+.user-payment {
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+.user-odered__titile {
+}
+.user-odered__item-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.user-odered__item-img {
+  width: 78px;
+  background-image: url(https://cf.shopee.vn/file/bf807aaeacc93e2e417fd0fff7258b3d_tn);
+  padding-top: 78px;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: contain;
+  background-origin: border-box;
+  box-shadow: 0 0 2px rgb(202, 198, 198);
+}
+.user-odered__item-name {
+  flex: 1;
+  font-size: 1.8rem;
+  line-height: 2.4rem;
+  padding: 0 12px 0 18px;
+}
+.user-odered__item-price {
+  font-size: 1.8rem;
+  line-height: 1.8rem;
+  color: var(--primary-color);
+}
+.separate {
+  margin: 16px 0;
+  width: 100%;
+  height: 1px;
+  background-color: #ccc9c9;
+}
+.user-odered__subtotal {
+}
+.user-odered-subtotal-wrap,
+.user-odered-subtotal-travel-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.user-odered-subtotal-title,
+.user-odered-subtotal-travel-title {
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+}
+.user-odered-subtotal-price,
+.user-odered-subtotal-travel-price {
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+}
+.user-odered__total-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+.user-odered__total-wrap-title {
+  font-size: 2.2rem;
+  line-height: 2.2rem;
+  text-transform: uppercase;
+}
+.user-odered__total-wrap-price {
+  font-size: 2.2rem;
+  line-height: 2.2rem;
+  color: var(--primary-color);
+}
+.user-payment-titile {
+  font-size: 2.4rem;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.user-payment-options {
+}
+.user-payment-option {
+  margin-right: 8px;
+}
+.user-payment-option-wrap {
+  display: flex;
+  align-items: center;
+}
+.user-payment-option-label {
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+}

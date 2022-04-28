@@ -1,0 +1,15 @@
+.menu_section-search {
+  padding: 13px 15px 12px;
+}
+.menu_section-search-input {
+  padding: 4px 8px;
+}
+td,
+th {
+  text-align: center;
+}
+
+.table-time-wrap {
+  display: flex;
+  flex-direction: column;
+}

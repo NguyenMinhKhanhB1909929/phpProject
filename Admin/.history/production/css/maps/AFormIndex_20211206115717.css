@@ -1,0 +1,14 @@
+.nav_search {
+}
+.nav_search-input {
+  padding: 6px 8px;
+  width: 200%;
+}
+.nav_menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+a .menu_toggle {
+  padding: 0 15px;
+}

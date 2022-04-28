@@ -1,0 +1,109 @@
+.cart-heading {
+  font-size: 3rem;
+  line-height: 3rem;
+  margin: 18px 0;
+}
+.table__item {
+  margin-top: 32px;
+}
+.table__item-title,
+.table__item-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 1.6rem;
+  line-height: 1.6rem;
+  font-weight: 400;
+  background-color: white;
+}
+.table__item-title-text,
+.table__item-content-text {
+  border: 1px solid #d3d3d3;
+  padding: 10px 0;
+  font-weight: 500;
+}
+.table__item-content {
+}
+.table__item-content-text {
+  height: 163.4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 400;
+}
+.table__item-content-text a,
+.table__item-content-text span {
+  font-size: 1.7rem;
+  padding: 28px;
+  line-height: 2.2rem;
+  text-decoration: none;
+  color: inherit;
+}
+.table__item-content-text .table__item-content-price,
+.table__item-content-text .table__item-content-price1 {
+  color: var(--primary-color);
+  font-size: 2rem;
+  padding: 20px;
+}
+.table__item-content-img {
+  width: 70%;
+  padding-top: 70%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 0 auto;
+  display: block;
+}
+.deleted-icon {
+  font-size: 2rem;
+  cursor: pointer;
+  padding: 16px;
+}
+.table__item-sum-price {
+  border: 1px solid #d3d3d3;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+.table__item-sum-price .table__item-sum-price-text {
+  font-size: 2.2rem;
+  line-height: 2.2rem;
+  padding: 15px;
+  display: inline-block;
+}
+.table__item-sum-price-number {
+  font-size: 2.2rem;
+  line-height: 2.2rem;
+  font-weight: 500;
+  padding: 15px 30px 10px 0;
+  display: inline-block;
+  color: var(--primary-color);
+}
+.btn-continue-ordered {
+  display: flex;
+  justify-content: end;
+}
+.btn-continue,
+.btn-ordered {
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  color: white;
+  min-width: 220px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2px;
+  margin: 20px 0 30px;
+  cursor: pointer;
+  text-decoration: none;
+  outline: none;
+}
+.btn-continue {
+  background-color: #0e40be;
+  margin-right: 12px;
+}
+.btn-ordered {
+  background-color: var(--primary-color);
+}
