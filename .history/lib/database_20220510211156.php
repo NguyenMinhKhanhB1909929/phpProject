@@ -1,5 +1,5 @@
 <?php
-  include_once "/xampp/htdocs/ct467/config/config.php";
+  include_once "/xampp/htdocs/config/config.php";
 ?>
 
 <?php
